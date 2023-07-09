@@ -99,6 +99,10 @@ nav a {
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about {
     background-color: #FFF8F3;
     border-radius: 10px;
@@ -136,4 +140,13 @@ nav a {
 .info-des{
     font-size: 20px;
     font-weight: 700;
+}
+
+#what-i-do{
+    padding:30px 150px;
+}
+
+.skill-container{
+    display: flex;
+    margin-right: 20px;
 }
