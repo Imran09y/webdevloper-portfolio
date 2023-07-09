@@ -216,8 +216,31 @@ main section {
 /* footer styles */
 footer{
     display: flex;
+    gap:100px;
     background: #FFF8F3;
     padding:130px 230px;
     margin-top:100px;
-    width:auto;
+    
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact-form input[type="text"],input[type="email"],
+ textarea{
+     
+     display: block;
+     margin-bottom:25px;
+     padding:18px 35px;
+     color:#757575;
+     background:  #FFF;
+     border-radius: 5px;
+     border: 0;
+     width: 100%;
+     
+}
+
+.social-links a{
+    margin-right: 25px;
 }
